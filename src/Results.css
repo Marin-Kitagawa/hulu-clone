@@ -1,0 +1,6 @@
+.results > div {
+    /* FlipMove adds another div inside. So, we are doing this */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
